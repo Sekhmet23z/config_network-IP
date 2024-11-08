@@ -5,8 +5,11 @@ Ce script est conçu pour calculer les informations réseau essentielles en fonc
 Fonctionnalités
 
 Détection de classe : sélection automatique des classes de réseau A, B ou C en fonction du nombre d'hôtes.
+
 Calcul du masque de sous-réseau : ajustement dynamique pour adapter le réseau au nombre d'hôtes.
+
 Affichage des adresses : première et dernière IP utilisable, adresse de diffusion, passerelle (gateway) et prochain réseau.
+
 Interface interactive : menu simple en ligne de commande pour une expérience conviviale.
 
 Lancer le script
@@ -30,6 +33,7 @@ pip install -r requirements.txt
 Détails Techniques
 
 Langage : Python 3
+
 Bibliothèques utilisées : ipaddress, math, pyfiglet
 
 Auteurs
